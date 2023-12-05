@@ -1,0 +1,8 @@
+Advanced Selectors: attribute, classes, id, type, nesting, id, universal
+
+browser can correct incorrect usage of id
+
+css should be ordered on stylesheet from largest to least impactful
+
+px = 1/96th of an inch
+

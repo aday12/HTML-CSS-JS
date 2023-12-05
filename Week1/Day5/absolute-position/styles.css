@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    border: 5px red solid;
+    margin: 0;
+}
+
+#empty_space{
+    height: 40vh;
+    background-color: teal;
+}
+
+.box{
+    height: 100px;
+    width: 50%;
+    border: 2px solid;
+    margin: 15px;
+}
+
+.container_box{
+    height: 50vh;
+}
+
+#blue_border{
+    border-color: forestgreen;
+    position: relative;
+}
+
+#black_border{ /*positioned absolutely based on the body if 
+    the blue_border isn't positioned*/
+    background-color: grey;
+    position: absolute;
+    top: 0px;
+}
+
+/* .control{
+    background-color: teal;   
+   } */

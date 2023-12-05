@@ -1,0 +1,12 @@
+p {
+    font-family: 'Nova Square', system-ui;
+}
+
+ol{
+    font-family: sans-serif, system-ui;
+}
+
+.more p{
+    font-family: 'Cedarville Cursive', system-ui;
+    font-size: large;
+}

@@ -1,0 +1,6 @@
+you can use system-ui in css font family to tell font to fall back to whatever the
+    user has as their default font
+
+using an @import statement in css doc allows you to skip 
+    the <link/> tag in your html doc, but makes the styles slower to come in
+

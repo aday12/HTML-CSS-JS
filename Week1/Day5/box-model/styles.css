@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box; /*sizes entire box, margin down to content, 
+        to be the size given to the box. in this case the #second <p>*/
+}
+
+#second{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 5px aqua solid;
+    padding: 5px;
+    
+}

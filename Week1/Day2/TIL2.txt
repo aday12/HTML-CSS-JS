@@ -1,0 +1,19 @@
+extensions
+
+prettier
+emmit shorthand
+
+anchor tag (especially nocaller)
+literally every webpage links to info.cern.ch
+	http: tells the browser we want to use port 80/443 to reach out to
+	www.: which is the first website we reach out to and then
+	google: is the website that we want and the .com/org etc tells the 
+		purpose of the site
+
+css box model
+
+git pages
+
+<hr>/<br>
+
+pseudo-selectors

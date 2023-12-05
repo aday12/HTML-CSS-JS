@@ -1,0 +1,36 @@
+html{
+    --nav_height: 50px;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    /* position: absolute;
+    top: 0; */
+}
+
+nav{
+    background-color: lightblue;
+    height: var(--nav_height);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+        & ul{
+        list-style-type: none;
+    
+     & li{
+            display: inline-block
+        }
+    }
+}
+
+h1{
+    z-index: 2;
+}
+
+.page{
+    position: relative;
+    top: 100px;
+}

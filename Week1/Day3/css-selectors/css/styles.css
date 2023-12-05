@@ -1,0 +1,23 @@
+p{
+    color: red;
+}
+
+#blue_para{
+    color: blue;
+}
+
+.dark_bg{
+    background-color: purple;
+}
+
+.centered_txt{
+    text-align: center;
+}
+
+a:any-link{
+    color: blue; 
+}
+
+a[https://www.google.com]{
+    color: brown;
+}

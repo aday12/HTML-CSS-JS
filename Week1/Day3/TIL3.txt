@@ -1,0 +1,23 @@
+outline of 5 min recap, I keep a txt file in each day of the week folder
+
+you can throtle connection speed to test your webpage, using the network tab in the "inspect" tab
+
+used git in terminal to add previous project to repo and set up gitpages
+
+https://internetingishard.netlify.app/html-and-css/semantic-html/
+    semantic html reveals the intention behind our coding actions
+    makes pages easier to find
+    optimizes layout for screen readers
+    makes finding meaningful blocks of code easier than using tons of divs
+
+
+article should only be used for content that could stand-alone
+
+sections dont need to be able to stand alone
+
+you can have multiple headers
+
+inline/internal page/external style sheets
+
+./ and ../ when linking css file
+

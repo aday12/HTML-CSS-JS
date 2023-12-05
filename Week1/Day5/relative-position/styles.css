@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+.box{
+    height: 100px;
+    width: 50%;
+    border: 1px solid;
+    margin: 5%;
+}
+
+.control{
+ background-color: teal;   
+}
+
+#blue_border{
+    height: 100px;
+    width: 50%;
+    border: 1px red solid;
+}
+
+#sticky{
+    background-color: forestgreen;
+    position: sticky;
+    top: -5px;
+    width: 40%;
+}
+
+#relative{
+    position: relative;
+    background-color: pink;
+}
+
+#absolute{
+    position: absolute;
+    top: -22px;
+    background-color: blueviolet;
+}
+

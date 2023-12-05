@@ -1,0 +1,23 @@
+defining var(s) in css
+
+scrolling behavior in css
+
+never underestimate the power of the dev console
+    can edit all flexbox properties in the inspect tool
+
+flex direction: column = main y axis
+    row: x = main axis
+
+justify = y axis
+    align = x axis
+
+netflix scrolling
+
+media queries: can be used to change styles based on viewport, 
+    using min-width: checks for a minimum, using max-width = maximum value
+    can use "or" and "and" to mix and match rules
+    check for these breakpoints by 
+        adjusting the dimensions in the inspect tool in your browser
+    for example you can increase font size based on screen size
+    media queries belong at the bottom of your css direction
+

@@ -1,0 +1,13 @@
+box model
+    inner most box is the content-box
+    margin separates elements
+
+static positioning: default-placement in browser, 
+    aka placement without any styles added
+
+position is static by default unless you change it
+
+box-sizing: boarder-box; can be used to set the size of the entire box
+
+in order to use position: absolute; you must put that div inside another div,
+    this establishes a parent-child relationship

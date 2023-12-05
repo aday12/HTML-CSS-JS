@@ -1,0 +1,31 @@
+html{
+    --nav_height: 50px;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: lightblue;
+    height: var(--nav_height);
+    position: sticky;
+    top: 0;
+        & ul{
+        list-style-type: none;
+    
+     & li{
+            display: inline-block
+        }
+    }
+}
+
+h1{
+    z-index: 2;
+}
+
+#about
+#contact{
+    padding-top: var(--nav_height);
+}

@@ -1,0 +1,8 @@
+personal wiki
+
+implement: 
+    space for ads, 
+    put img in-line with life stage paragraphs, 
+    add a blog 
+    sign-up form, in a flex-box
+    link to github, linkedin
