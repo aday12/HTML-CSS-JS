@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.outter{
+    background-color: blue;
+    height: 100px;
+}
+
+.row{
+    border: 5px solid burlywood;
+}
+
+.col, 
+[class*="col-"]{
+    border: 1px red solid;
+}

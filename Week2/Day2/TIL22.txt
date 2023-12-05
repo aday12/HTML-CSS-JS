@@ -4,3 +4,6 @@ you can use system-ui in css font family to tell font to fall back to whatever t
 using an @import statement in css doc allows you to skip 
     the <link/> tag in your html doc, but makes the styles slower to come in
 
+you absolutely must wrap bootstrap components in some sort of container class
+    to be able to style them
+
