@@ -1,0 +1,14 @@
+more array methods:
+    find - returns first element that satisfies the testing function
+    findIndex - same as find?
+    some - tests to see if at least 1 element(s) of an array fit a test condition
+    forEach - executes a provided function once for each array element
+    map - creates a new array with the results of a function on every element in the previous array
+    sort - sorts elements of array "in place" and returns reference to that array that is sorted. based on unicode values
+    filter - creates shallow copy of given array, filtered to just elements from given array that pass the implemented test function
+
+dot notation: object.propertyName
+    object[var]
+    if you use a property that doesn't exist, it returns "undefined"
+    person.sisters[0].name
+

@@ -1,0 +1,24 @@
+use double quotes (") inside of single quotes (') to indicate a quote within your string
+    can also use backticks (`) to allow for var use within strings
+
+template literal `hello ${world}`
+
+strings are primitive, meaning they are immutable
+
+chars are zero indexed, you can call each char in a string by counting from 0 to the position you want
+
+string methods
+    concat
+    includes
+    indexOf negative num = non-existent
+    lastIndexOf
+    replace
+    startsWith
+    endsWith
+    substring
+    toLower
+    toUpper
+    trim
+
+both sides of an && statement must be "truthy"
+

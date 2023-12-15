@@ -1,0 +1,46 @@
+arrays are zero indexed(first value in the array is 0)
+
+array methods:
+    includes
+    join
+    lastIndexOf
+    indexOf
+    pop
+    push
+    reverse
+    shift
+    unshift
+    slice
+    splice
+        splice(start)
+        splice(start, deleteCount)
+        splice(start, deleteCount, item1)
+        splice(start, deleteCount, item1, item2)
+        splice(start, deleteCount, item1, item2, /* …, */ itemN)`
+
+[...varName] =  iterates over args
+
+for loop
+
+for of loop
+
+...rest
+
+function expression: 
+    let area = function (w, h){
+        return w * h;
+    }:
+
+
+anon function:
+    function(w, h){
+        return w*h;
+    };
+
+function dec:
+    function isEven(num) {
+        return num %2 === 0;
+    };
+
+    console.log(num.isEven);
+

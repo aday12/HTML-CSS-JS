@@ -1,0 +1,47 @@
+use bracket notation (object.key["sales"]) when you need to call a property that isn't a string
+    have to use bracket notation if you have a property stored as a var
+
+const {a: var1} = obj4 stores a in var1
+
+document.body.style.backgroundColor = 'red' calls dom, selects the body tag sets a style with a red backgroundColor 
+
+ways to select html element using js
+    querySelector("cssSelector") - returns first element that matches the string you put in the ()
+    getElementsByClassName("className")
+    getElementById("id")
+    getElementsByTagName("htmlTagName")
+    querySelectorAll("cssSelector") - this is static, will not change element in dom
+
+ways to get or set text in html element
+    innerHTML - " `<element>hello world</element>` ", can also return all text and html
+    innerText - writes text, can also return text that is within a <p>. reflow happens when positions are recalculated, can move your text without you intending to
+    textContent - returns all text in the div, use this to set text instead of innerText.
+
+putting js in body loads js after dom is built, can put js in head to avoid lag while loading
+    async in the script tag allows browser to read both simultaneously 
+    defer stops script from running before dom is finished
+
+Event names:
+    onclick: Triggered when an element is clicked by the user.
+    onmouseover: Fired when the mouse pointer enters the area of an element.
+    onmouseout: Occurs when the mouse pointer leaves the area of an element.
+    onchange: Triggered when the value of a form element changes.
+    onsubmit: Fired when a form is submitted, either by clicking a submit button or programmatically.
+    onkeydown, onkeyup, onkeypress: Events related to keyboard input. onkeydown is triggered when a key is pressed, onkeyup when it's released, and onkeypress when a key is pressed and released.
+    onfocus, onblur: onfocus occurs when an element receives focus, and onblur when it loses focus.
+    onload: Similar to the global onload, but specifically refers to the loading of an external resource, like an image.
+    onresize: Fired when the browser window is resized.
+
+2 ways:
+    eventName = "JS code"
+        inline, not recommended
+    
+    document.getElement().onclick = doSomething
+    doSomething () {
+        function;
+    }
+        in script.js, not not recommended
+
+    document.getElement().addEventListener("event type", doSomething);
+        in script.js, recommended
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rainbow Color Picker</title>
+  </head>
+  <body>
+    <!-- inline style to change bg color to user hex input -->
+    <form id="colorForm">
+      <!-- Input Field -->
+      <label for="colorInput">Enter a color:</label>
+      <input
+        type="text"
+        id="colorInput"
+        name="colorInput"
+        placeholder="e.g., red"
+      />
+
+      <!-- Submit Button -->
+      <button type="button" onclick="displayColor()">Display Color</button>
+    </form>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

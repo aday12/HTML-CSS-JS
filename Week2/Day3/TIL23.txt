@@ -1,0 +1,36 @@
+found a dev doc alternative: https://devdocs.io/javascript/
+
+ctrl + c or .exit to exit node.js 
+
+html = content, js = interactivity, css = styling of content that the user sees
+    js can dynamically add css to html
+
+comparing JS to Java
+    Bigint is arbitrary
+    you can have an undefined variable
+    null is a deliberate choice you make
+    object types: function, array, date, regex, error
+    you can write numbers in several ways: binary, octal, decimal, or hex
+    still has && || and !
+    still have += etc
+    + can still concact strings
+    comments are // or /* */
+    ===
+    while and do... while loops still exist, do while is written differently
+    for loop is the same
+    for...of and for...in loops are new 
+    still have switch cases, try/catch, and errors
+
+Java is a class-based programming language designed for fast execution and type safety.
+    Type safety means, for instance, that you can't cast a Java integer into 
+    an object reference or access private memory by corrupting the Java bytecode. 
+    Java's class-based model means that programs consist exclusively of classes and 
+    their methods. Java's class inheritance and strong typing generally require tightly
+    coupled object hierarchies. These requirements make Java programming more complex
+    than JavaScript programming.
+    js = runtime
+
+click red dot on left to set breakpoint in vs code, you can also type "debugger;" to set a breakpoint
+
+=== checks for data types when making comparisons
+

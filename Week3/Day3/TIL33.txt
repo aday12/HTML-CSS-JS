@@ -1,0 +1,9 @@
+classList give more control over elements than setAttribute("attribute", "value")
+    `element.classList.add("className");`
+    methods include: add, remove, replace, and toggle
+
+async = build dom and dowload js at same time
+defer = don't run the js until the dom is done building
+
+addEventListener("event", eventHandler)
+
