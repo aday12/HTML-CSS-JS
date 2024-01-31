@@ -1,0 +1,19 @@
+fetch command yields a promise
+    promise is an object
+
+event loop
+
+synchronous code is evaluated step by step
+
+async code runs it all simultaneously 
+    you cant have multiple threads but you can do some things at a later time
+
+a promise is something that will be a value that is determined later    
+    use a promise ctor to create a promise object 
+        which is mostly used to wrap callback-based API
+    an executor is a function to be executed by promise ctor
+    
+make sure you understand when you have access to which data 
+    during the fetch process
+
+hw: https://gif-demo.netlify.app/
